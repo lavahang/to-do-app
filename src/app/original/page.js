@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { useState } from 'react';
-const Todo = () => {
+const Original = () => {
   const [message, setMessage] = useState('');
   const [update,setupdate]= useState(message)
   const handlechange = (event) => {
@@ -37,4 +37,4 @@ const Todo = () => {
   )
 }
 
-export default Todo
+export default Original
